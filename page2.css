@@ -1,0 +1,199 @@
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita rolagem horizontal */
+}
+
+/* Estilos para a Page1 */
+.page1 {
+  background-image: url('fundo.png'); 
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 25px;
+  position: relative;
+}
+
+.page1 h1 {
+  position: absolute;
+  color: white;
+  bottom: 220px;
+  left: 80px;
+  font-size: 55px;
+  font-family: cursive;
+}
+
+.page1 p {
+  position: absolute;
+  color: white;
+  bottom: 210px;
+  left: 82px;
+}
+
+.page1 img {
+  position: absolute;
+  width: 75px;
+  top: 575px;
+  left: 630px;
+}
+
+/* Estilos para a Page2 */
+.page2 {
+  background-color: #0b436a;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page2 h2 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.page2 p {
+  color: white;
+  text-align: justify;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.page2 img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Estilos para a Page3 */
+.page3 {
+  background-color: #8eaec5;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.page3 h2 {
+  color: #041937;
+  font-size: 45px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.page3 .filipinas, .page3 .quenia, .page3 .islandia {
+  margin-bottom: 20px;
+}
+
+.page3 .filipinas h3, .page3 .quenia h3, .page3 .islandia h3 {
+  color: #041937;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.page3 .filipinas p, .page3 .quenia p, .page3 .islandia p {
+  color: #041937;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+  .page1 h1 {
+    font-size: 40px;
+    bottom: 180px;
+    left: 40px;
+  }
+
+  .page1 p {
+    bottom: 160px;
+    left: 42px;
+    font-size: 16px;
+  }
+
+  .page1 img {
+    top: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .page2 h2 {
+    font-size: 40px;
+  }
+
+  .page2 p {
+    max-width: 90%;
+    font-size: 18px;
+  }
+
+  .page3 h2 {
+    font-size: 35px;
+  }
+
+  .page3 .filipinas h3, .page3 .quenia h3, .page3 .islandia h3 {
+    font-size: 28px;
+  }
+
+  .page3 .filipinas p, .page3 .quenia p, .page3 .islandia p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page1 h1 {
+    font-size: 30px;
+    bottom: 150px;
+    left: 20px;
+  }
+
+  .page1 p {
+    bottom: 130px;
+    left: 22px;
+    font-size: 14px;
+  }
+
+  .page1 img {
+    top: 480px;
+    width: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .page2 h2 {
+    font-size: 30px;
+  }
+
+  .page2 p {
+    font-size: 16px;
+  }
+
+  .page3 h2 {
+    font-size: 28px;
+  }
+
+  .page3 .filipinas h3, .page3 .quenia h3, .page3 .islandia h3 {
+    font-size: 24px;
+  }
+
+  .page3 .filipinas p, .page3 .quenia p, .page3 .islandia p {
+    font-size: 14px;
+  }
+}

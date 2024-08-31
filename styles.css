@@ -1,0 +1,103 @@
+
+
+body {
+  font-family: 'JetBrains Mono', sans-serif;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita rolagem horizontal */
+}
+
+.page1 {
+  background-image: url('fundo.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  max-width: 1300px; /* Limite a largura máxima */
+  margin: 0 auto; /* Centraliza a página */
+  padding: 25px;
+  position: relative;
+}
+
+.page1 h1 {
+  position: absolute;
+  color: white;
+  bottom: 220px;
+  left: 80px;
+  font-size: 55px;
+  font-family: cursive;
+}
+
+.page1 p {
+  position: absolute;
+  color: white;
+  bottom: 190px;
+  left: 82px;
+}
+
+.btn-link {
+  background-color: white;
+  border: none;
+  color: rgba(24, 58, 151, 0.863);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+  position: absolute;
+  left: 53px;
+  top: 450px;
+}
+
+.btn-link:hover {
+  background-color: rgba(24, 58, 151, 0.863);
+  color: white;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .page1 h1 {
+    font-size: 40px;
+    bottom: 180px;
+    left: 40px;
+  }
+
+  .page1 p {
+    bottom: 160px;
+    left: 42px;
+    font-size: 14px;
+  }
+
+  .btn-link {
+    padding: 12px 28px;
+    font-size: 14px;
+    left: 42px;
+    top: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page1 h1 {
+    font-size: 30px;
+    bottom: 150px;
+    left: 20px;
+  }
+
+  .page1 p {
+    bottom: 130px;
+    left: 22px;
+    font-size: 12px;
+  }
+
+  .btn-link {
+    padding: 10px 24px;
+    font-size: 12px;
+    left: 22px;
+    top: 360px;
+  }
+}
