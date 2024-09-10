@@ -41,7 +41,7 @@
     .box-grid {
         justify-content: center;
         display: grid;
-        grid-template-columns: repeat(2, 250px);
+        grid-template-columns: repeat(2, 235px);
         gap: 20px;
     }
 }
