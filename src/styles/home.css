@@ -41,7 +41,31 @@
     .box-grid {
         justify-content: center;
         display: grid;
-        grid-template-columns: repeat(2, 235px);
+        grid-template-columns: repeat(2, 180px);
         gap: 20px;
     }
+
+    .box-item img {
+        border-radius: 15px;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 8%;
+    }
+
+    .nome-camisa {
+        font-size: 18px;
+        color: #f1f1f1;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 8%;
+    }
+
+    .camisa-preco {
+        margin-top: 15%;
+        font-weight: 700;
+        font-size: 28px;
+        color: #f1f1f1;
+        text-align: center;
+    }
+    
 }
